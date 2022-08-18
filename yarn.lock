@@ -3509,6 +3509,31 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
 
+csv-generate@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-4.2.0.tgz#06e23634415c1d5a7cb111102bbea868b0857e6f"
+  integrity sha512-zlIESlGQaYqIhNYwBN2pj5KXNMYbAXZYMOgNoVSoYV8MQyGZwcNWX+kx5LHxocp+zQDqzSgeKh+e+AZs+nCq4Q==
+
+csv-parse@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-5.3.0.tgz#85cc02fc9d1c89bd1b02e69069c960f8b8064322"
+  integrity sha512-UXJCGwvJ2fep39purtAn27OUYmxB1JQto+zhZ4QlJpzsirtSFbzLvip1aIgziqNdZp/TptvsKEV5BZSxe10/DQ==
+
+csv-stringify@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-6.2.0.tgz#f89881e8f61293bf5af11f421266b5da7b744030"
+  integrity sha512-dcUbQLRTTDcgQxgEU8V9IctkaCwHZjZfzUZ5ZB3RY8Y+pXtdtl5iVQHfGzANytFFkRKanYzBXrkfpNdGR7eviA==
+
+csv@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/csv/-/csv-6.2.0.tgz#edab9979067fe9bb4c6a4381aaebba96ef5b3017"
+  integrity sha512-yT7dkCsJLJ36NUW0d0ei7parOcUCx/QVkK77puwA/rF4bMciTB5Kf+wuegL+7zh8s6revFM+BFQ2h+U2k4jgBQ==
+  dependencies:
+    csv-generate "^4.2.0"
+    csv-parse "^5.3.0"
+    csv-stringify "^6.2.0"
+    stream-transform "^3.2.0"
+
 damerau-levenshtein@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
@@ -8068,6 +8093,11 @@ statuses@2.0.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
+
+stream-transform@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/stream-transform/-/stream-transform-3.2.0.tgz#5b94300c09f4db30d682f5b3bad97c3c8aac81d1"
+  integrity sha512-M22v88wNknyJiIyHYoiIYI5RPl/R7tkf92j1YNkmrbe5XRGHW0jW8n458j1njOrR4Edcj8bwbpSV0iLIWon1hg==
 
 string-length@^4.0.1:
   version "4.0.2"
