@@ -10,7 +10,7 @@ function App() {
       zoom: 8
     }}
     style={{ width: 1260, height: 720 }}
-    mapStyle="mapbox://styles/mapbox/streets-v10"
+    mapStyle="mapbox://styles/mapbox/streets-v8"
   />;
 }
 
