@@ -2,8 +2,13 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// Mocking Map component from 'react-map-gl'
+jest.mock('react-map-gl', () => ({
+  Map: () => <div data-testid="mock-map"></div>
+}));
+
+test('renders map container', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const mapContainer = screen.getByTestId('mock-map');
+  expect(mapContainer).toBeInTheDocument();
 });
